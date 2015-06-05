@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="43dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_year1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_year3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_year3"
+        android:layout_marginBottom="237dp"
+        android:layout_marginTop="45dp"
+        android:background="#e26e7e"
+        android:text="1"
+        android:textSize="200dp" />
+
+    <Button
+        android:id="@+id/button_year2"
+        android:textSize="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_year1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_year1"
+        android:layout_marginLeft="182dp"
+        android:text="2" 
+        android:background="#5f70ff"/>
+
+     <Button
+         android:id="@+id/button_year3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:textSize="200dp"
+         android:layout_below="@+id/textView1"
+         android:layout_marginBottom="7dp"
+         android:layout_marginRight="181dp"
+         android:layout_marginTop="214dp"
+         android:background="#0bb288"
+         
+         android:text="3" />
+
+     <Button
+         android:id="@+id/button_year4"
+         android:layout_width="wrap_content"
+         android:textSize="200dp"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/button_year3"
+         android:layout_alignLeft="@+id/button_year2"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/button_year3"
+         android:background="#f1c40f"
+         android:text="4" />
+
+</RelativeLayout>

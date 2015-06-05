@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android1:id="@+id/appname2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/appname3"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:gravity="center"
+        android1:text="Announcement"
+        android1:textSize="50dp" />
+
+    <TextView
+        android1:id="@+id/appname1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/appname2"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:gravity="center"
+        android1:text="College"
+        android1:textSize="50dp" />
+
+    <TextView
+        android1:id="@+id/appname3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:layout_marginBottom="104dp"
+        android1:gravity="center"
+        android1:text="System"
+        android1:textSize="50dp" />
+
+    <ImageView
+        android1:id="@+id/imageView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:src="@drawable/icon_ann"
+        
+        android1:layout_marginTop="104dp" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android1:id="@+id/COM234"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:clickable="true"
+        android1:enabled="true"
+        android:onClick="onCheckBoxClicked"
+        android:tag="COM234"
+        android1:text="COM234 - Elektronik I" />
+
+    <CheckBox
+        android1:id="@+id/COM240"
+        android:tag="COM240"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:text="COM240 - Programming Language" />
+
+    <CheckBox
+        android1:id="@+id/COM252"
+        android:tag="COM252"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM234"
+        android1:text="COM252 - File Organization" />
+    <CheckBox
+        android1:id="@+id/COM256"
+        android:tag="COM256"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM256 - Data Communications" />
+    <CheckBox
+        android1:id="@+id/COM267"
+        android:tag="COM267"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM267 - Data Structure" 
+        android:onClick="onCheckBoxClicked"/>
+    <CheckBox
+        android1:id="@+id/BLM231"
+        android:tag="BLM231"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM231 - Discrete Mathematics"
+android:onClick="onCheckBoxClicked"/>
+    <CheckBox
+        android1:id="@+id/BLM275"
+        android:tag="BLM275"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:onClick="onCheckBoxClicked"
+        android1:text="BLM275 - Digital Logical Design" />
+<CheckBox
+        android1:id="@+id/COM237"
+        android:tag="COM237"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM237 - Introduction to Web Based Programming" />
+<CheckBox
+        android1:id="@+id/STA250"
+        android:tag="STA250"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android:onClick="onCheckBoxClicked"
+        android:clickable="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="STA250 - Probability and Statistics" />
+<CheckBox
+        android1:id="@+id/MAT231"
+        android:tag="MAT231"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="MAT231 - Differential Equations" />
+<CheckBox
+        android1:id="@+id/ENS220"
+        android:tag="ENS220"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="ENS220 - Business Management" />
+    
+
+</LinearLayout>

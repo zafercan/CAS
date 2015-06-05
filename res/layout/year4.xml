@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android1:id="@+id/BLM402"
+        android:tag="BLM402"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:text="BLM402 - Android İşletim Sistemi ile Uygulama Geliştirme" />
+
+    <CheckBox
+        android1:id="@+id/BLM436"
+        android:tag="BLM436"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="BLM436 - Bulanık Mantık" />
+
+    <CheckBox
+        android1:id="@+id/BLM438"
+        android:tag="BLM438"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM234"
+        android1:text="BLM438 - Computer Graphics" />
+    <CheckBox
+        android1:id="@+id/BLM468"
+        android:tag="BLM468"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM468 - Software Engineering" />
+    <CheckBox
+        android1:id="@+id/COM491"
+        android:tag="COM491"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM491 - Research Techniques I " />
+    <CheckBox
+        android1:id="@+id/COM492"
+        android:tag="COM492"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM492 - Research Techniques II " />
+    <CheckBox
+        android1:id="@+id/BLM431"
+        android:tag="BLM431"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM431 - Computer Networks" />
+    <CheckBox
+        android1:id="@+id/BLM433"
+        android:tag="BLM433"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM433 - Numerical Analyze Methods" />
+
+    
+    
+    
+
+</LinearLayout>

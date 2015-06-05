@@ -1,0 +1,109 @@
+<!-->TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:textColor="#000" /-->
+  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+   <TextView
+       android:id="@+id/LectureCode"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/announcementTitle"
+       android:layout_alignRight="@+id/announcementTitle"
+       android:layout_marginLeft="225dp"
+       android:paddingBottom="2dip"
+       android:textSize="20dip"
+       android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/announcementContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/announcementTitle"
+            android:layout_below="@+id/announcementTitle"
+            android:gravity="left"
+            android:textColor="#546e7a"
+            android:textSize="14dip"
+            android:maxLines="2"
+             />
+
+        <TextView
+            android:id="@+id/announcementTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/LectureCode"
+            android:paddingBottom="2dip"
+            android:textColor="#444"
+            android:singleLine="true"
+            android:textSize="15dip"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/publishedDateClockArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="2dip"
+            android:textColor="#444"
+            android:singleLine="true"
+            android:textSize="15dip"
+            android:ellipsize="end" 
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/deadlineDateMinArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="2dip"
+            android:textColor="#444"
+            android:singleLine="true"
+            android:textSize="15dip"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/deadlineDateClockArea"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="2dip"
+            android:textColor="#444"
+            android:singleLine="true"
+            android:textSize="15dip"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/publishedDateMinArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/announcementContent"
+            android:ellipsize="end"
+            android:paddingBottom="2dip"
+            android:singleLine="true"
+            android:textColor="#444"
+            android:textSize="15dip" />
+
+</RelativeLayout>
+
+
+

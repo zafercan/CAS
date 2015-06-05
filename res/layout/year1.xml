@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <CheckBox
+        android1:id="@+id/COM101"
+        android:tag="COM101"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="COM102 - Computer Programming-I" />
+    <CheckBox
+        android1:id="@+id/COM102"
+        android:tag="COM102"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:text="COM102 - Computer Programming-II" />
+    <CheckBox
+        android1:id="@+id/COM111"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android:tag="COM111"
+        android1:layout_height="wrap_content"
+        android1:text="COM111 - Introduction to Computer Engineering" />
+   <CheckBox
+        android1:id="@+id/COM115"
+        android1:layout_width="wrap_content"
+        android:tag="COM115"
+        android1:layout_height="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:text="COM115 - Introduction to Computer Science" />
+<CheckBox
+        android1:id="@+id/TUR102"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android:tag="TUR102"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:text="TUR102 - Turkish Language - Literature" />
+ <CheckBox
+        android1:id="@+id/PHY121"
+        android1:layout_width="wrap_content"
+        android:tag="PHY121"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:text="PHY121 - Physics-I" />
+    <CheckBox
+        android1:id="@+id/PHY122"
+        android:tag="COM101"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:text="PHY122 - Physics-II" />
+ <CheckBox
+        android1:id="@+id/MTH105"
+        android:tag="MTH105"
+        android1:layout_width="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM234"
+        android1:text="MTH105 - Mathematics-I" />
+    <CheckBox
+        android1:id="@+id/MTH106"
+        android:tag="MTH106"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+         android:onClick="onCheckBoxClicked"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM234"
+        android1:text="MTH106 - Mathematics-II" />
+    
+    <CheckBox
+        android1:id="@+id/ENS120"
+         android:onClick="onCheckBoxClicked"
+        android:tag="ENS120"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:text="ENS120 - Economics" />
+  
+
+</LinearLayout>

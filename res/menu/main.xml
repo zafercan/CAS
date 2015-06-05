@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cas.MainActivity" >
+    
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"
+        android:icon="@drawable/refresh_w"></item>
+    
+    <item android:id="@+id/dersEkle"
+          android:icon="@drawable/plus_w"
+          android:title="Ders Ekle"
+          android:showAsAction="always"
+          />
+</menu>

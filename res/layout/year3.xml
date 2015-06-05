@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android1:id="@+id/COM334"
+        android:tag="COM334"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:text="COM334 - İşletim Sistemleri" />
+
+    <CheckBox
+        android1:id="@+id/COM336"
+        android1:layout_width="wrap_content"
+        android:tag="COM336"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:text="COM336 - Sinyaller ve Sistemler" />
+
+    <CheckBox
+        android1:id="@+id/COM352"
+        android:tag="COM352"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM234"
+        android1:text="COM352 - Veritabanı Yönetimi" />
+    <CheckBox
+        android1:id="@+id/COM364"
+        android:tag="COM364"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM364 - Otomata Teorisi" />
+    <CheckBox
+        android1:id="@+id/COM376"
+        android:tag="COM376"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM376 - Bilgisayar Mimarisi" />
+    
+    <CheckBox
+        android1:id="@+id/BLM343"
+        android:tag="BLM343"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM343 - Object Oriented Programming" />
+    <CheckBox
+        android1:id="@+id/BLM367"
+        android:tag="BLM367"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM367 - Advanced Data Structures" />
+    <CheckBox
+        android1:id="@+id/COM325"
+        android:tag="COM325"
+        android1:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="COM325 Microprocessors" />
+    <CheckBox
+        android1:id="@+id/BLM331"
+        android:tag="BLM331"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM331 Electronics II" />
+    <CheckBox
+        android1:id="@+id/BLM334"
+        android:tag="BLM334"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android:onClick="onCheckBoxClicked"
+        android1:layout_below="@+id/COM236"
+        android1:text="BLM334 - Operating Systems" />
+    <CheckBox
+        android1:id="@+id/BLM336"
+		android:tag="BLM336"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/COM236"
+        android:onClick="onCheckBoxClicked"
+        android1:text="BLM336 - Signals and Systems" />
+   
+
+
+</LinearLayout>
